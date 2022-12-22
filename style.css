@@ -1,0 +1,174 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#face{
+    width: 25vw;
+    height: 30vh;
+    background-image: url(./Vector\ Panda\ Bear\ Face.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#card{
+    position: absolute;
+    left: 49.7%;
+    top: 68%;
+    transform: translate(-50%, -50%);
+    width: 45vw;
+    height: 45vh;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-shadow: 5px 5px 10px #dfdfdf;
+}
+
+#left-hand{
+    position: absolute;
+    left: 32vw;
+    top: 40vh;
+    width: 4.5vw;
+    height: 10vh;
+    border-radius: 10%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-color: rgb(80, 80, 80);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.2s;
+}
+
+#right-hand{
+    position: absolute;
+    right: 32.5vw;
+    top: 40vh;
+    width: 4.5vw;
+    height: 10vh;
+    border-radius: 10%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-color: rgb(80, 80, 80);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.2s;
+}
+
+#foot{
+    width: 45vw;
+    height: 60vh;
+   
+    position: absolute;
+    left: 49.7%;
+    top: 66%;
+    transform: translate(-50%, -50%);
+    background-image: url(./Lovepik_com-401387806-panda-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#username{
+    position: absolute;
+    top: 66%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    padding: 10px 40px;
+    z-index: 5;
+    border: none;
+    background-color: #dfdfdf;
+}
+
+#password{
+    position: absolute;
+    top: 74%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    padding: 10px 40px;
+    z-index: 5;
+    border: none;
+    background-color: #dfdfdf;
+}
+
+#card>h1{
+    position: absolute;
+  
+    font-family: "gilroy";
+    margin: 20%;
+    top: -21%;
+    font-size: 27px;
+}
+
+#card>p{
+    position: absolute;
+    width: 70%;
+    color: #979797;
+    font-family: "gilroy";
+    margin: 20%;
+    top: -8%;
+    font-size: 13px;
+    
+    
+}
+
+#submit{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    padding: 7px 22px;
+    font-family: "gilroy";
+    border: none;
+    box-shadow: 5px 5px 8px #dfdfdf;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1.1s;
+
+   
+  
+}
+
+#submit:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+
+}
+
+#icon1{
+    position: relative;
+    top: 41%;
+    left: 21%;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: #fff;
+    padding: 6px;
+    font-size: 24px;
+    z-index: 8;
+    
+}
+
+#icon2{
+    position: absolute;
+    top: 57%;
+    left: 21%;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: #fff;
+    padding: 6px;
+    font-size: 24px;
+    z-index: 8;
+}
+ 
+
